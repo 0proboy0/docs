@@ -1,33 +1,17 @@
 ---
-title: 'Introductionnnnn'
-description: 'Example section for showcasing API endpoints'
+title: 'Introduction'
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+Welcome to the API reference for Chargily Pay V2, where efficiency and simplicity meet seamless integration. 
 
-## Welcome
+Our API is designed around REST, providing you with a streamlined and predictable experience.
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+Whether you're in the development phase or ready to go live, our API offers a dual-mode functionality. Utilize the test mode to experiment and fine-tune without impacting your live data or engaging with banking networks. The API URL and the secret key you provide will determine the mode of your request (live or test).
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
+```text Test Mode Base Url
+https://pay.chargily.io/test/api/v2
+```
 
-## Authentication
-
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
+```text Live Mode Base Url
+https://pay.chargily.io/api/v2
 ```
