@@ -78,7 +78,7 @@
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   },
   "api": {
-    "baseUrl": "https://pay.chargily.io/test/api/v1",
+    "baseUrl": "https://pay.chargily.io/test/api/v2",
     "auth": {
       "method": "bearer"
     }
