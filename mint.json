@@ -65,11 +65,10 @@
       "pages": ["api-reference/introduction", "api-reference/authentication"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Balance",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/balance/balance-object",
+        "api-reference/balance/retrieve-balance"
       ]
     }
   ],
