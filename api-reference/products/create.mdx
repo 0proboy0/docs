@@ -4,20 +4,41 @@ description: 'Creates a new product.'
 api: 'POST /products'
 ---
 
-## Parameters
+## Body parameters
 
 <ParamField body="name" type="string" required>
-  The age of the user. Cannot be less than 0
+The name of the product.
 </ParamField>
 
 <ParamField body="description" type="string">
-  The age of the user. Cannot be less than 0
+The description of the product.
 </ParamField>
 
-<ParamField body="images" type="array">
-  The age of the user. Cannot be less than 0
+<ParamField body="images" type="array of strings">
+Up to 8 URLs of images of the product.
 </ParamField>
 
 <ParamField body="metadata" type="key-value array">
-  The age of the user. Cannot be less than 0
+A Set of key-value pairs that can be used to store additional information about the product.
 </ParamField>
+
+## Returns
+
+If the request is successful, it returns a product object.
+
+<ResponseExample>
+
+```json Response
+{
+    "id": "01hhyjnrdbc1xhgmd34hs1v3en",
+    "entity": "product",
+    "livemode": false,
+    "name": "Super Product",
+    "description": null,
+    "images": [],
+    "metadata": [],
+    "created_at": 1702907011,
+    "updated_at": 1702911993
+}
+```
+</ResponseExample>
