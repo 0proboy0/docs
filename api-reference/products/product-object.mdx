@@ -14,25 +14,25 @@ A String representing the type of the object.
 </ResponseField>
 
 <ResponseField name="name" type="string">
-
+A String representing the name of the product.
 </ResponseField>
 
-<ResponseField name="description" type="string">
-
+<ResponseField name="description" type="nullable, string">
+A String representing the description of the product.
 </ResponseField>
 
-<ResponseField name="images" type="string">
-
+<ResponseField name="images" type="array of strings">
+The images of the product.
 </ResponseField>
 
-<ResponseField name="metadata" type="string">
-
+<ResponseField name="metadata" type="dictionary">
+A Set of key-value pairs that can be used to store additional information about the product.
 </ResponseField> 
 
-<ResponseField name="created_at" type="string">
-
+<ResponseField name="created_at" type="timestamp">
+Timestamp indicating when the product was created.
 </ResponseField> 
 
-<ResponseField name="updated_at" type="string">
-
-</ResponseField> 
+<ResponseField name="updated_at" type="timestamp">
+Timestamp indicating when the last time the product was updated (edited).
+</ResponseField>
