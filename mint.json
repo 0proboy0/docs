@@ -71,6 +71,17 @@
         "api-reference/balance/retrieve-balance"
       ]
     }
+    {
+      "group": "Products",
+      "pages": [
+        "api-reference/products/product-object",
+        "api-reference/products/create",
+        "api-reference/products/update",
+        "api-reference/products/retrieve",
+        "api-reference/products/list",
+        "api-reference/products/delete"
+      ]
+    }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
