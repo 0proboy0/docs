@@ -1,4 +1,5 @@
 {
+  "versions": ["V2", "V1"],
   "name": "Chargily Pay Documentation",
   "logo": {
     "dark": "/logo/dark.svg",
@@ -27,74 +28,87 @@
   "tabs": [
     {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "v2/api-reference"
     }
   ],
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://mintlify.com/docs" ,
+      "version": "V2"
     },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://mintlify.com/community",
+      "version": "V2"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://mintlify.com/blog",
+      "version": "V2"
     }
   ],
   "navigation": [
-    {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction", "api-reference/authentication"]
-    },
-    {
-      "group": "Balance",
-      "pages": [
-        "api-reference/balance/balance-object",
-        "api-reference/balance/retrieve-balance"
-      ]
-    },
-    {
-      "group": "Products",
-      "pages": [
-        "api-reference/products/product-object",
-        "api-reference/products/create",
-        "api-reference/products/update",
-        "api-reference/products/retrieve",
-        "api-reference/products/list",
-        "api-reference/products/delete"
-      ]
-    },
-    {
-      "group": "Customers",
-      "pages": [
-        "api-reference/customers/customer-object",
-        "api-reference/customers/create",
-        "api-reference/customers/update",
-        "api-reference/customers/retrieve",
-        "api-reference/customers/list",
-        "api-reference/customers/delete"
-      ]
-    }
+     {
+        "group": "Get Started",
+        "pages": ["v2/introduction", "v2/quickstart", "v2/development"],
+        "version": "V2"
+     },
+     {
+        "group": "API Documentation",
+        "pages": [
+           "v2/api-reference/introduction",
+           "v2/api-reference/authentication"
+        ],
+        "version": "V2"
+     },
+     {
+        "group": "Balance",
+        "pages": [
+           "v2/api-reference/balance/balance-object",
+           "v2/api-reference/balance/retrieve-balance"
+        ],
+        "version": "V2"
+     },
+     {
+        "group": "Products",
+        "pages": [
+           "v2/api-reference/products/product-object",
+           "v2/api-reference/products/create",
+           "v2/api-reference/products/update",
+           "v2/api-reference/products/retrieve",
+           "v2/api-reference/products/list",
+           "v2/api-reference/products/delete"
+        ],
+        "version": "V2"
+     },
+     {
+        "group": "Customers",
+        "pages": [
+           "v2/api-reference/customers/customer-object",
+           "v2/api-reference/customers/create",
+           "v2/api-reference/customers/update",
+           "v2/api-reference/customers/retrieve",
+           "v2/api-reference/customers/list",
+           "v2/api-reference/customers/delete"
+        ],
+        "version": "V2"
+     },
+     {
+        "group": "Payment Links",
+        "pages": [
+           "v2/api-reference/payment-links/payment-link-object",
+           "v2/api-reference/payment-links/create",
+           "v2/api-reference/payment-links/update",
+           "v2/api-reference/payment-links/retrieve",
+           "v2/api-reference/payment-links/list",
+           "v2/api-reference/payment-links/delete"
+        ],
+        "version": "V2"
+     }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
