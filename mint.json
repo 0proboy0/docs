@@ -105,7 +105,7 @@
            "v2/api-reference/payment-links/update",
            "v2/api-reference/payment-links/retrieve",
            "v2/api-reference/payment-links/list",
-           "v2/api-reference/payment-links/delete"
+           "v2/api-reference/payment-links/items"
         ],
         "version": "V2"
      }
