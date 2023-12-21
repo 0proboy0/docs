@@ -54,7 +54,7 @@
   "navigation": [
      {
         "group": "Get Started",
-        "pages": ["v2/introduction", "v2/quickstart", "v2/development"],
+        "pages": ["v2/create-account", "v2/applications", "v2/test-and-live-mode"],
         "version": "V2"
      },
      {
@@ -106,6 +106,28 @@
            "v2/api-reference/payment-links/retrieve",
            "v2/api-reference/payment-links/list",
            "v2/api-reference/payment-links/items"
+        ],
+        "version": "V2"
+     },
+     {
+        "group": "Checkouts",
+        "pages": [
+           "v2/api-reference/checkouts/checkout-object",
+           "v2/api-reference/checkouts/create",
+           "v2/api-reference/checkouts/retrieve",
+           "v2/api-reference/checkouts/list",
+           "v2/api-reference/checkouts/items"
+        ],
+        "version": "V2"
+     },
+     {
+        "group": "Prices",
+        "pages": [
+           "v2/api-reference/prices/price-object",
+           "v2/api-reference/prices/create",
+           "v2/api-reference/prices/update",
+           "v2/api-reference/prices/retrieve",
+           "v2/api-reference/prices/list"
         ],
         "version": "V2"
      }
