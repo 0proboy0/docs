@@ -17,14 +17,16 @@ api: "POST /checkouts"
         <ParamField body="quantity" type="integer" required>
         </ParamField>
     </Expandable>
+
 </ParamField>
 
 <ParamField body="success_url" type="string" required>
    The URL where your customer will be redirected after a successful payment.
-</ParamField> 
+</ParamField>{" "}
 
 <ParamField body="customer_id" type="string">
-   The ID of an existing [Customer](/v2/api-reference/customers/customer-object "Customer").
+   The ID of an existing [Customer](/v2/api-reference/customers/customer-object
+   "Customer").
 </ParamField>
 
 <ParamField body="failure_url" type="string">
@@ -59,20 +61,25 @@ If the request is successful, it returns a checkout object.
 
 ```json Response
 {
-   "id": "01hj0p5s3ygy2mx1czg2wzcc4x",
-   "entity": "customer",
+   "id": "01hj5n7cqpaf0mt2d0xx85tgz8",
+   "entity": "checkout",
    "livemode": false,
-   "name": "Hocine Saad",
-   "email": null,
-   "phone": null,
-   "address": {
-      "country": "Algeria",
-      "state": "Tizi-Ouzou",
-      "address": "123 Main Street"
-   },
+   "amount": 2500,
+   "fees": 0,
+   "pass_fees_to_customer": 0,
+   "status": "pending",
+   "locale": "en",
+   "description": null,
    "metadata": null,
-   "created_at": 1702977791,
-   "updated_at": 1702977791
+   "success_url": "https://my-app.com/payments/success",
+   "failure_url": "https://my-app.com/payments/failure",
+   "payment_method": null,
+   "invoice_id": null,
+   "customer_id": "01hj150206g0jxnh5r2yvvdrna",
+   "payment_link_id": null,
+   "created_at": 1703144567,
+   "updated_at": 1703144567,
+   "url": "https://pay.chargily.io/test/checkouts/01hj5n7cqpaf0mt2d0xx85tgz8/pay"
 }
 ```
 
