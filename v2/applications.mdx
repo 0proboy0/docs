@@ -1,98 +1,40 @@
 ---
-title: 'Applications'
-description: 'Learn how to preview changes locally'
+title: "Applications"
+description: "Learn more about the concept of one account, multiple applications."
 ---
 
-<Info>
-  **Prerequisite** You should have installed Node.js (version 18.10.0 or
-  higher).
-</Info>
+Imagine you have an online store, and you've added e-payment functionality to it using Chargily Pay. You created an account, obtained the API key, and successfully integrated e-payments into your website.
 
-Step 1. Install Mintlify on your OS:
+Now, let's say you decide to start a new project—a different website to sell digital products. Setting up a new Chargily Pay account for this separate project might not be convenient.
 
-<CodeGroup>
+The solution to this challenge is the concept of multiple applications within one account. With this, you can create a single user account and then set up multiple applications. Each application represents a distinct project, website, or business.
 
-```bash npm
-npm i -g mintlify
-```
+It's essential to note that everything, such as API keys, products, payment history, and wallets, is associated with the specific application and not the user account.
 
-```bash yarn
-yarn global add mintlify
-```
+When you create a new user account, a default application named "My new app" is automatically generated for you. You can then edit it or create additional applications as needed.
 
-</CodeGroup>
+## Editing an application
 
-Step 2. Go to the docs are located (where you can find `mint.json`) and run the following command:
+<Steps>
+   <Step title="First Step">
+      Click on the application's name on the left sidebar.
+      ![Edit Chargily Pay's application](https://i.imgur.com/Qz0g6Ze.png)
+   </Step>
+   <Step title="Second Step">
+      Click on the **Edit** button next to the application's name. ![Edit
+      Chargily Pay's application](https://i.imgur.com/27b16Ls.png)
+   </Step>
+</Steps>
 
-```bash
-mintlify dev
-```
+## Creating a new application
 
-The documentation website is now available at `http://localhost:3000`.
-
-### Custom Ports
-
-Mintlify uses port 3000 by default. You can use the `--port` flag to customize the port Mintlify runs on. For example, use this command to run in port 3333:
-
-```bash
-mintlify dev --port 3333
-```
-
-You will see an error like this if you try to run Mintlify in a port that's already taken:
-
-```md
-Error: listen EADDRINUSE: address already in use :::3000
-```
-
-## Mintlify Versions
-
-Each CLI is linked to a specific version of Mintlify. Please update the CLI if your local website looks different than production.
-
-<CodeGroup>
-
-```bash npm
-npm i -g mintlify@latest
-```
-
-```bash yarn
-yarn global upgrade mintlify
-```
-
-</CodeGroup>
-
-## Deployment
-
-<Tip>
-  Unlimited editors available under the [Startup
-  Plan](https://mintlify.com/pricing)
-</Tip>
-
-You should see the following if the deploy successfully went through:
-
-<Frame>
-  <img src="/images/checks-passed.png" style={{ borderRadius: '0.5rem' }} />
-</Frame>
-
-## Troubleshooting
-
-Here's how to solve some common problems when working with the CLI.
-
-<AccordionGroup>
-  <Accordion title="Mintlify is not loading">
-    Update to Node v18. Run `mintlify install` and try again.
-  </Accordion>
-  <Accordion title="No such file or directory on Windows">
-Go to the `C:/Users/Username/.mintlify/` directory and remove the `mint`
-folder. Then Open the Git Bash in this location and run `git clone
-https://github.com/mintlify/mint.git`.
-
-Repeat step 3.
-
-  </Accordion>
-  <Accordion title="Getting an unknown error">
-    Try navigating to the root of your device and delete the ~/.mintlify folder.
-    Then run `mintlify dev` again.
-  </Accordion>
-</AccordionGroup>
-
-Curious about what changed in a CLI version? [Check out the CLI changelog.](/changelog/command-line)
+<Steps>
+   <Step title="First Step">
+      Click on the current application's name on the left sidebar.
+      ![Create Chargily Pay's application](https://i.imgur.com/Qz0g6Ze.png)
+   </Step>
+   <Step title="Second Step">
+      Click on the **New application** button.
+      ![Create Chargily Pay's application](https://i.imgur.com/UawPPlI.png)
+   </Step>
+</Steps>

@@ -1,146 +1,156 @@
 {
-  "versions": ["V2", "V1"],
-  "name": "Chargily Pay Documentation",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#680488",
-    "light": "#be5fff",
-    "dark": "#680488",
-    "anchors": {
-      "from": "#680488",
-      "to": "#be5fff"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://pay.chargily.io/dashboard"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "v2/api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs" ,
-      "version": "V2"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community",
-      "version": "V2"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog",
-      "version": "V2"
-    }
-  ],
-  "navigation": [
-     {
-        "group": "Get Started",
-        "pages": ["v2/create-account", "v2/applications", "v2/test-and-live-mode"],
-        "version": "V2"
-     },
-     {
-        "group": "API Documentation",
-        "pages": [
-           "v2/api-reference/introduction",
-           "v2/api-reference/authentication"
-        ],
-        "version": "V2"
-     },
-     {
-        "group": "Balance",
-        "pages": [
-           "v2/api-reference/balance/balance-object",
-           "v2/api-reference/balance/retrieve-balance"
-        ],
-        "version": "V2"
-     },
-     {
-        "group": "Products",
-        "pages": [
-           "v2/api-reference/products/product-object",
-           "v2/api-reference/products/create",
-           "v2/api-reference/products/update",
-           "v2/api-reference/products/retrieve",
-           "v2/api-reference/products/list",
-           "v2/api-reference/products/delete"
-        ],
-        "version": "V2"
-     },
-     {
-        "group": "Customers",
-        "pages": [
-           "v2/api-reference/customers/customer-object",
-           "v2/api-reference/customers/create",
-           "v2/api-reference/customers/update",
-           "v2/api-reference/customers/retrieve",
-           "v2/api-reference/customers/list",
-           "v2/api-reference/customers/delete"
-        ],
-        "version": "V2"
-     },
-     {
-        "group": "Payment Links",
-        "pages": [
-           "v2/api-reference/payment-links/payment-link-object",
-           "v2/api-reference/payment-links/create",
-           "v2/api-reference/payment-links/update",
-           "v2/api-reference/payment-links/retrieve",
-           "v2/api-reference/payment-links/list",
-           "v2/api-reference/payment-links/items"
-        ],
-        "version": "V2"
-     },
-     {
-        "group": "Checkouts",
-        "pages": [
-           "v2/api-reference/checkouts/checkout-object",
-           "v2/api-reference/checkouts/create",
-           "v2/api-reference/checkouts/retrieve",
-           "v2/api-reference/checkouts/list",
-           "v2/api-reference/checkouts/items"
-        ],
-        "version": "V2"
-     },
-     {
-        "group": "Prices",
-        "pages": [
-           "v2/api-reference/prices/price-object",
-           "v2/api-reference/prices/create",
-           "v2/api-reference/prices/update",
-           "v2/api-reference/prices/retrieve",
-           "v2/api-reference/prices/list"
-        ],
-        "version": "V2"
-     }
-  ],
-  "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  },
-  "api": {
-    "baseUrl": "https://pay.chargily.io/test/api/v2",
-    "auth": {
-      "method": "bearer"
-    }
-  }
+   "versions": ["V2", "V1"],
+   "name": "Chargily Pay Documentation",
+   "logo": {
+      "dark": "/logo/dark.svg",
+      "light": "/logo/light.svg"
+   },
+   "favicon": "/favicon.svg",
+   "colors": {
+      "primary": "#680488",
+      "light": "#be5fff",
+      "dark": "#680488",
+      "anchors": {
+         "from": "#680488",
+         "to": "#be5fff"
+      }
+   },
+   "topbarLinks": [
+      {
+         "name": "Support",
+         "url": "mailto:hi@mintlify.com"
+      }
+   ],
+   "topbarCtaButton": {
+      "name": "Dashboard",
+      "url": "https://pay.chargily.io/dashboard"
+   },
+   "tabs": [
+      {
+         "name": "API Reference",
+         "url": "v2/api-reference"
+      }
+   ],
+   "anchors": [
+      {
+         "name": "Documentation",
+         "icon": "book-open-cover",
+         "url": "https://mintlify.com/docs",
+         "version": "V2"
+      },
+      {
+         "name": "Community",
+         "icon": "slack",
+         "url": "https://mintlify.com/community",
+         "version": "V2"
+      },
+      {
+         "name": "Blog",
+         "icon": "newspaper",
+         "url": "https://mintlify.com/blog",
+         "version": "V2"
+      }
+   ],
+   "navigation": [
+      {
+         "group": "Get Started",
+         "pages": [
+            "v2/create-account",
+            "v2/applications",
+            "v2/test-and-live-mode",
+            "v2/api-keys"
+         ],
+         "version": "V2"
+      },
+      {
+         "group": "Must know",
+         "pages": ["v2/account-verification", "v2/payouts", "v2/fees"],
+         "version": "V2"
+      },
+      {
+         "group": "API Documentation",
+         "pages": [
+            "v2/api-reference/introduction",
+            "v2/api-reference/authentication"
+         ],
+         "version": "V2"
+      },
+      {
+         "group": "Balance",
+         "pages": [
+            "v2/api-reference/balance/balance-object",
+            "v2/api-reference/balance/retrieve-balance"
+         ],
+         "version": "V2"
+      },
+      {
+         "group": "Products",
+         "pages": [
+            "v2/api-reference/products/product-object",
+            "v2/api-reference/products/create",
+            "v2/api-reference/products/update",
+            "v2/api-reference/products/retrieve",
+            "v2/api-reference/products/list",
+            "v2/api-reference/products/delete"
+         ],
+         "version": "V2"
+      },
+      {
+         "group": "Customers",
+         "pages": [
+            "v2/api-reference/customers/customer-object",
+            "v2/api-reference/customers/create",
+            "v2/api-reference/customers/update",
+            "v2/api-reference/customers/retrieve",
+            "v2/api-reference/customers/list",
+            "v2/api-reference/customers/delete"
+         ],
+         "version": "V2"
+      },
+      {
+         "group": "Payment Links",
+         "pages": [
+            "v2/api-reference/payment-links/payment-link-object",
+            "v2/api-reference/payment-links/create",
+            "v2/api-reference/payment-links/update",
+            "v2/api-reference/payment-links/retrieve",
+            "v2/api-reference/payment-links/list",
+            "v2/api-reference/payment-links/items"
+         ],
+         "version": "V2"
+      },
+      {
+         "group": "Checkouts",
+         "pages": [
+            "v2/api-reference/checkouts/checkout-object",
+            "v2/api-reference/checkouts/create",
+            "v2/api-reference/checkouts/retrieve",
+            "v2/api-reference/checkouts/list",
+            "v2/api-reference/checkouts/items"
+         ],
+         "version": "V2"
+      },
+      {
+         "group": "Prices",
+         "pages": [
+            "v2/api-reference/prices/price-object",
+            "v2/api-reference/prices/create",
+            "v2/api-reference/prices/update",
+            "v2/api-reference/prices/retrieve",
+            "v2/api-reference/prices/list"
+         ],
+         "version": "V2"
+      }
+   ],
+   "footerSocials": {
+      "twitter": "https://twitter.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://www.linkedin.com/company/mintsearch"
+   },
+   "api": {
+      "baseUrl": "https://pay.chargily.io/test/api/v2",
+      "auth": {
+         "method": "bearer"
+      }
+   }
 }
