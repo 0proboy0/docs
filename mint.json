@@ -64,7 +64,7 @@
       },
       {
          "group": "Must Know",
-         "pages": ["v2/account-verification", "v2/fees"],
+         "pages": ["v2/webhooks", "v2/account-verification", "v2/fees"],
          "version": "V2"
       },
       {
@@ -72,7 +72,9 @@
          "pages": [
             "v2/integration-introduction",
             "v2/before-you-start",
-            "v2/first-api-request"
+            "v2/first-api-request",
+            "v2/create-a-price",
+            "v2/create-a-checkout"
          ],
          "version": "V2"
       },
@@ -157,7 +159,7 @@
       "linkedin": "https://www.linkedin.com/company/mintsearch"
    },
    "api": {
-      "baseUrl": "https://pay.chargily.io/test/api/v2",
+      "baseUrl": "https://pay.chargily.net/test/api/v2",
       "auth": {
          "method": "bearer"
       }

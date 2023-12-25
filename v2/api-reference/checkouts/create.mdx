@@ -15,6 +15,7 @@ api: "POST /checkouts"
         </ParamField>
 
         <ParamField body="quantity" type="integer" required>
+         The quantity of the item.
         </ParamField>
     </Expandable>
 
@@ -22,7 +23,7 @@ api: "POST /checkouts"
 
 <ParamField body="success_url" type="string" required>
    The URL where your customer will be redirected after a successful payment.
-</ParamField>{" "}
+</ParamField>
 
 <ParamField body="customer_id" type="string">
    The ID of an existing [Customer](/v2/api-reference/customers/customer-object
@@ -79,7 +80,7 @@ If the request is successful, it returns a checkout object.
    "payment_link_id": null,
    "created_at": 1703144567,
    "updated_at": 1703144567,
-   "url": "https://pay.chargily.io/test/checkouts/01hj5n7cqpaf0mt2d0xx85tgz8/pay"
+   "url": "https://pay.chargily.dz/test/checkouts/01hj5n7cqpaf0mt2d0xx85tgz8/pay"
 }
 ```
 
