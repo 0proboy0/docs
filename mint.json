@@ -17,8 +17,8 @@
    },
    "topbarLinks": [
       {
-         "name": "Support",
-         "url": "mailto:hi@mintlify.com"
+         "name": "Live Support",
+         "url": "https://chargi.link/WaPay"
       }
    ],
    "topbarCtaButton": {
@@ -33,28 +33,61 @@
    ],
    "anchors": [
       {
-         "name": "Documentation",
-         "icon": "book-open-cover",
-         "url": "https://mintlify.com/docs",
-         "version": "V2"
-      },
-      {
          "name": "Community",
-         "icon": "slack",
-         "url": "https://mintlify.com/community",
-         "version": "V2"
-      },
-      {
-         "name": "Blog",
-         "icon": "newspaper",
-         "url": "https://mintlify.com/blog",
+         "icon": "telegram",
+         "url": "https://t.me/+653KV9zxIxAwNDY0",
          "version": "V2"
       }
    ],
    "navigation": [
       {
+         "group": "Get Started with Chargily Pay V1",
+         "pages": ["v1/introduction", "v1/api", "v1/test-webhook-handler"],
+         "version": "V1"
+      },
+      {
+         "group": "Addons for programming languages",
+         "pages": [
+            "v1/php",
+            "v1/javascript",
+            "v1/python",
+            "v1/java",
+            "v1/kotlin",
+            "v1/csharp",
+            "v1/ruby",
+            "v1/dart"
+         ],
+         "version": "V1"
+      },
+      {
+         "group": "Addons for frameworks",
+         "pages": [
+            "v1/laravel",
+            "v1/django",
+            "v1/symphony",
+            "v1/react",
+            "v1/nextjs",
+            "v1/flutter",
+            "v1/vuejs",
+            "v1/reactnative",
+            "v1/springboot"
+         ],
+         "version": "V1"
+      },
+      {
+         "group": "Wordpress",
+         "pages": ["v1/woocommerce-plugin"],
+         "version": "V1"
+      },
+      {
+         "group": "Extra",
+         "pages": ["v1/faq"],
+         "version": "V1"
+      },
+      {
          "group": "Get Started",
          "pages": [
+            "v2/introduction",
             "v2/create-account",
             "v2/applications",
             "v2/test-and-live-mode",
@@ -74,7 +107,8 @@
             "v2/before-you-start",
             "v2/first-api-request",
             "v2/create-a-price",
-            "v2/create-a-checkout"
+            "v2/create-a-checkout",
+            "v2/handle-webhooks"
          ],
          "version": "V2"
       },
@@ -154,9 +188,8 @@
       }
    ],
    "footerSocials": {
-      "twitter": "https://twitter.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://www.linkedin.com/company/mintsearch"
+      "github": "https://github.com/Chargily",
+      "telegram": "https://t.me/+653KV9zxIxAwNDY0"
    },
    "api": {
       "baseUrl": "https://pay.chargily.net/test/api/v2",
