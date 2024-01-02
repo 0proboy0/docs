@@ -25,13 +25,13 @@
       "name": "Dashboard",
       "url": "https://pay.chargily.io/dashboard"
    },
-   "tabs": [
+   "anchors": [
       {
          "name": "API Reference",
-         "url": "v2/api-reference"
-      }
-   ],
-   "anchors": [
+         "icon": "link",
+         "url": "v2/api-reference",
+         "version": "V2"
+      },
       {
          "name": "Community",
          "icon": "telegram",
@@ -40,50 +40,6 @@
       }
    ],
    "navigation": [
-      {
-         "group": "Get Started with Chargily Pay V1",
-         "pages": ["v1/introduction", "v1/api", "v1/test-webhook-handler"],
-         "version": "V1"
-      },
-      {
-         "group": "Addons for programming languages",
-         "pages": [
-            "v1/php",
-            "v1/javascript",
-            "v1/python",
-            "v1/java",
-            "v1/kotlin",
-            "v1/csharp",
-            "v1/ruby",
-            "v1/dart"
-         ],
-         "version": "V1"
-      },
-      {
-         "group": "Addons for frameworks",
-         "pages": [
-            "v1/laravel",
-            "v1/django",
-            "v1/symphony",
-            "v1/react",
-            "v1/nextjs",
-            "v1/flutter",
-            "v1/vuejs",
-            "v1/reactnative",
-            "v1/springboot"
-         ],
-         "version": "V1"
-      },
-      {
-         "group": "Wordpress",
-         "pages": ["v1/woocommerce-plugin"],
-         "version": "V1"
-      },
-      {
-         "group": "Extra",
-         "pages": ["v1/faq"],
-         "version": "V1"
-      },
       {
          "group": "Get Started",
          "pages": [
@@ -185,6 +141,50 @@
             "v2/api-reference/payment-links/items"
          ],
          "version": "V2"
+      },
+      {
+         "group": "Get Started with Chargily Pay V1",
+         "pages": ["v1/introduction", "v1/api", "v1/test-webhook-handler"],
+         "version": "V1"
+      },
+      {
+         "group": "Addons for programming languages",
+         "pages": [
+            "v1/php",
+            "v1/javascript",
+            "v1/python",
+            "v1/java",
+            "v1/kotlin",
+            "v1/csharp",
+            "v1/ruby",
+            "v1/dart"
+         ],
+         "version": "V1"
+      },
+      {
+         "group": "Addons for frameworks",
+         "pages": [
+            "v1/laravel",
+            "v1/django",
+            "v1/symphony",
+            "v1/react",
+            "v1/nextjs",
+            "v1/flutter",
+            "v1/vuejs",
+            "v1/reactnative",
+            "v1/springboot"
+         ],
+         "version": "V1"
+      },
+      {
+         "group": "Wordpress",
+         "pages": ["v1/woocommerce-plugin"],
+         "version": "V1"
+      },
+      {
+         "group": "Extra",
+         "pages": ["v1/faq"],
+         "version": "V1"
       }
    ],
    "footerSocials": {
@@ -196,5 +196,5 @@
       "auth": {
          "method": "bearer"
       }
-   }
+   } 
 }
