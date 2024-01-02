@@ -196,5 +196,8 @@
       "auth": {
          "method": "bearer"
       }
-   } 
+   },
+   "metadata": {
+      "og:image": "https://i.imgur.com/lfB0A0u.png"
+   }
 }
